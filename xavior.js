@@ -594,15 +594,15 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Kalian Bisa Cek Yt XaviorOfc:*
-https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+                anu = `*sc beli di gw chat owner*
+wa.me/6282146218274
 
-*Recode By : Xavior88*
-https://github.com/Xavior88`
+*Recode By : Xavior88 & RielOfc*
+https://github.com/rielgans12`
 let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/Xavior88'
+                                    displayText: '𝙎𝘾𝙍𝙄𝙋𝙏 𝘿𝙄𝙔𝙏 :_𝙓𝙖𝙫𝙞𝙤𝙧𝙊𝙛𝙘_',
+                                    url: 'https://github.com/rieltod12'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -776,7 +776,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, jawab, 'AzzBot-MD', m, {mentions: ments})
+                    await xavior.sendButtonText(m.chat, buttons, jawab, 'Khurushi-MD', m, {mentions: ments})
             }
             break
             case 'jadian': {
@@ -791,7 +791,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, jawab, 'AzzBot-MD', m, {mentions: menst})
+                    await xavior.sendButtonText(m.chat, buttons, jawab, 'Khurushi-MD', m, {mentions: menst})
             }
             break
             case 'react': {
@@ -1025,7 +1025,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: 'AzzBot-MD',
+                footer: 'Khurushi-MD',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1067,7 +1067,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: 'AzzBot-MD',
+                footer: 'Khurushi-MD',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1124,7 +1124,7 @@ break
                         { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Group`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Group`, 'Khurushi-MD', m)
 
              }
             }
@@ -1142,7 +1142,7 @@ break
                         { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Edit Info`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Edit Info`, 'Khurushi-MD', m)
 
             }
             }
@@ -1164,7 +1164,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Antilink`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Antilink`, 'Khurushi-MD', m)
                 }
              }
              break
@@ -1242,13 +1242,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'My website',
+                                    url: 'web.idkhurushi.xzy'
                                 }
                                 }, {
                                 urlButton: {
-                                    displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    displayText: 'github Bot',
+                                    url: 'https://github.com/Rieltod12'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1267,7 +1267,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      xavior.send5ButImg(i, txt, 'AzzBot-MD', global.thumb, btn)
+                      xavior.send5ButImg(i, txt, 'Khurushi-Md', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1281,13 +1281,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'My website',
+                                    url: 'web.idkhurushi.xzy'
                                 }
                                 }, {
                                 urlButton: {
-                                    displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    displayText: 'github Bot',
+                                    url: 'https://github.com/Rieltod12'
                                 }
                                 }, {
                                 quickReplyButton: {
