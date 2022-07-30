@@ -1634,7 +1634,7 @@ break
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Khurushi-MD',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1715,7 +1715,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Khurushi-MD',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2271,7 +2271,7 @@ break
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: 'AzzBot-MD',
+			footer: 'Khurushi-MD',
 			buttons,
 			headerType: 4
 		    }
@@ -2899,11 +2899,11 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=SEWABOT
+├  🪀 wa.me/6282146218274?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
-├  DANA
-├  GOPAY
+├  PULSA
+├  ONLY
 ╰────
 
 
@@ -2921,7 +2921,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  NAMA BOT, NAMA OWNER, OWNER, DLL DI GANTI JADI TERSERAH LU
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=JADIBOT
+├  🪀 wa.me/6282146218274?text=JADIBOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2958,27 +2958,27 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Khurushi-MD', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Khurushi-MD', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Khurushi-MD', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Khurushi-MD', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Khurushi-MD', global.thumb, btn)
                         }
             break
 case 'gopay': {
-                m.reply('NOPE GOPAY: 081511480762')
+                m.reply('NOPE GOPAY: GA MENERIMA GOPAY ;V')
             }
             break
 case 'dana': {
-                m.reply('NOPE DANA: 081511480762')
+                m.reply('GA MENERIMA DANA ;V')
             }
             break
 case 'pulsa': {
-m.reply('MAAF TIDAK MENERIMA PEMBAYARAN PULSA:(')
+m.reply('NOPE AXIS 083813417529:(')
 }
 break
 // Button List
@@ -3418,13 +3418,13 @@ anu = `${ucapanWaktu} ${pushname}
 ╰───────────────❏`
 let btn = [{
                                 urlButton: {
-                                    displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: '𝗠𝗬 𝗪𝗘𝗕𝗦𝗜𝗧𝗘',
+                                    url: 'web.idkhurushi.xzy'
                                 }
                                 }, {
                                 urlButton: {
-                                    displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    displayText: '𝗠𝗬 𝗚𝗜𝗧𝗛𝗨𝗕',
+                                    url: 'https://github.com/Rieltod12'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3444,15 +3444,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'khurushi-Md', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'khurushi-Md', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'khurushi-Md', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'khurushi-Md', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'khurushi-Md', global.thumb, btn)
                         }
                      }
             break
@@ -4838,20 +4838,20 @@ let btn = [{
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 081511480762
-│ ➪ Gopay : 081511480762
+│ ➪ AXIS : 083813417529
+│ ➪ AXIS : 083813417529
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
                                 urlButton: {
-                                    displayText: 'My Youtube️',
+                                    displayText: 'My Youtube️📫',
                                     url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
                                 }
                                 }, {
                                 urlButton: {
-                                    displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    displayText: 'Website Bot🚀',
+                                    url: 'https://github.com/Rieltod'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4979,27 +4979,27 @@ Penyedia Rest Api :
 https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
-                                    displayText: 'My Youtube️',
+                                    displayText: 'My Youtube️🚀',
                                     url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
                                 }
                                 }, {
                                 urlButton: {
-                                    displayText: 'Website Bot',
+                                    displayText: 'Website Bot🌱',
                                     url: 'https://github.com/AzzBott679'
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Menu Sultan',
+                                    displayText: 'Menu Sultan🗿',
                                     id: 'donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Cara Jadi Bot',
+                                    displayText: 'Cara Jadi Bot🤖',
                                     id: 'sewabot'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Fitur Bot',
+                                    displayText: 'Fitur Bot🖨️',
                                     id: 'command'
                                 }
                             }]
