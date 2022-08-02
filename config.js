@@ -13,7 +13,7 @@ global.APIKeys = {
 
 // Other
 global.namabot = ['YanBot-MD']
-global.namaowner = ['RielGanzz']
+global.namaowner = ['YanceOfc']
 global.owner = ['6285242489614']
 global.premium = ['6285242489614']
 global.packname = 'YanBot-MD'
